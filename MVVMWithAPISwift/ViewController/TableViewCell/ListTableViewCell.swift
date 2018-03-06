@@ -9,7 +9,9 @@
 import UIKit
 
 class ListTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var labelTitle: UILabel!
+    
+    @IBOutlet weak var labelDescription: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
